@@ -10,7 +10,7 @@ import SignInAndSignUpPage from './pages/SignInAndSignUp/SignInAndSignUp';
 import CheckoutPage from './pages/Checkout/Checkout';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
-import { selectCurrentUser } from './redux/user/user.selector';
+import { selectCurrentUser } from './redux/user/user.selectors';
 
 class App extends React.Component {
     unsubscribeFromAuth = null;
